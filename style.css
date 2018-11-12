@@ -1,0 +1,359 @@
+/* Style CSS */
+
+body{
+  background-color: #dfdfdf;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  height:50px;
+  background-color: #f5f5f5;
+}
+
+.logo{
+  height:100%;
+  background-image: url("images/WTHRlogo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.responsive-top-margin{
+  height:20px;
+}
+
+.card-spacer{
+  padding-top:10px;
+  height:220px;
+}
+
+.card-parent{
+  margin:0;
+  padding:5px;
+  height:200px;
+  background-color: #f5f5f5;
+  box-shadow: 4px 4px 4px #aaa;
+
+}
+
+.card-title{
+  margin:0px 0px 5px 0px;
+  padding:0;
+  height:20px;
+  text-align: left;
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+.card-content{
+  padding:0;
+  margin:0;
+  height: 165px;
+  overflow:hidden;
+}
+
+#windspeed-control{
+  padding:0;
+  width: 100%;
+  height:25px;
+  /*margin:auto;*/
+  margin-top:30px;
+  /*position: absolute;
+  bottom:0;
+  left: 0;
+  right:0;*/
+}
+
+#windspeed-btn-left{
+  float:left;
+  margin-top:5px;
+  width:20px;
+  height:20px;
+  background-image: url("images/ArrowRight.svg");
+  background-size: contain;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#windspeed-btn-right{
+  float:right;
+  margin-top:5px;
+  width:20px;
+  height:20px;
+  background-image: url("images/ArrowRight.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#card-windspeed-information{
+  width: 400%;
+  height:60%;
+}
+
+/* should be just 1 class but something strange happens and no time to figure it out */
+#wind-info-1{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+#wind-info-2{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+#wind-info-3{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+#wind-info-4{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+
+.information-type{
+  margin-top:39px;
+  text-align: center;
+  height:20px;
+  font-size:12pt;
+  font-weight: bolder;
+}
+
+#volatile-wind-info-kph{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+#volatile-wind-info-mps{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+#volatile-wind-info-mph{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+#volatile-wind-info-fps{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+
+
+#windspeed-img{
+  width:80%;
+  height: 100%;
+  margin:auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image:url("images/Windspeed.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index:0;
+  opacity: 0.5;
+}
+
+/*TEMPERATURE */
+
+#temperature-img{
+  width:80%;
+  height: 100%;
+  margin:auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image:url("images/Temperature.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index:0;
+  opacity: 0.5;
+}
+#temperature-bar{
+  width:5px;
+  height:70%;
+  border-radius: 5px 5px 0 0;
+  background-color:#d7d7d7;
+  margin:auto;
+  margin-top:15px;
+}
+#temp-control{
+  padding:0;
+  width: 100%;
+  height:25px;
+  /*margin:auto;*/
+  margin-top:30px;
+  /*position: absolute;
+  bottom:0;
+  left: 0;
+  right:0;*/
+}
+
+#temp-btn-left{
+  float:left;
+  margin-top:5px;
+  width:20px;
+  height:20px;
+  background-image: url("images/ArrowRight.svg");
+  background-size: contain;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#temp-btn-right{
+  float:right;
+  margin-top:5px;
+  width:20px;
+  height:20px;
+  background-image: url("images/ArrowRight.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#card-temperature-information{
+  width: 400%;
+  height:60%;
+}
+
+#temp-info-1{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+#temp-info-2{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+#temp-info-3{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+#temp-info-4{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+
+
+#volatile-temp-info-c{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+#volatile-temp-info-f{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+
+/*HUMIDITY */
+
+#Humidity-img{
+  width:80%;
+  height: 100%;
+  margin:auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image:url("images/Humidity.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index:0;
+  opacity: 0.5;
+}
+
+#card-Humidity-information{
+  width: 400%;
+  height:60%;
+}
+
+#Humidity-info-1{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+
+#volatile-Humidity-info{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+
+/*RAIN */
+
+#Rain-img{
+  width:80%;
+  height: 100%;
+  margin:auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image:url("images/Rain4.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index:0;
+  opacity: 0.5;
+}
+
+#card-Rain-information{
+  width: 400%;
+  height:60%;
+}
+
+#Rain-info-1{
+  float:left;
+  padding:1px 0 0 0;
+  width: 25%;
+  height:100%;
+}
+
+#volatile-Rain-info{
+  text-align: center;
+  height:50px;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
